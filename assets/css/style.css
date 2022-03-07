@@ -10,6 +10,7 @@ body {
     font-family: Libre Baskerville, sans-serif;
     font-weight: 150;
     color: #000000;
+    background-color: #E1F1E3;
 }
 
 /* heading sub_logo and logo */
@@ -32,12 +33,81 @@ h2 {
     font-style: oblique;
 }
 
-#logo, #sub_logo
-    {
+#headings {
+    float: left;
+}
+
+#logo,
+#sub_logo {
     margin: 10px 0 0 7px;
 }
 
 #sub_logo {
     margin-top: 0.5%;
     margin-left: 1.5%;
+    margin-bottom: 2%;
 }
+
+/* navigation menu links*/
+
+#menu {
+    font-size: 80%;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 15px 1px 1px 7px;
+    padding: 0px 3px 0 0;
+    border-right: 1px solid #000000;
+}
+
+#menu li:first-child {
+    border-right: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #814032;
+
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.active {
+    border-bottom: 2px solid #000000;
+}
+
+/* header image */
+
+#header_image {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background: url('../css/images/project.jpg') no-repeat center center;
+    background-size: contain;  
+}
+
+/* cover text*/
+
+#cover_text {
+    color: white;
+    font-style: oblique bold;
+    float: right;
+    text-align: center;
+
+    width: 250px;
+    height: 30px;
+
+    padding: 10px 10px 10px 10px;
+
+    background-color: rgba(123, 75, 70, 0.7);
+
+    bottom: 1px;
+    right: 50px;
+}
+
+/* ethos */
