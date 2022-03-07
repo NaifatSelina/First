@@ -8,6 +8,36 @@
 
 body {
     font-family: Libre Baskerville, sans-serif;
-    font-weight: 250;
+    font-weight: 150;
     color: #000000;
+}
+
+/* heading sub_logo and logo */
+
+h1,
+h2 {
+    font-family: Libre Baskerville, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 150%;
+    color: #814032;
+}
+
+h2 {
+    font-size: 80%;
+    color: #000000;
+    font-style: oblique;
+}
+
+#logo, #sub_logo
+    {
+    margin: 10px 0 0 7px;
+}
+
+#sub_logo {
+    margin-top: 0.5%;
+    margin-left: 1.5%;
 }
